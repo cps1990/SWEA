@@ -34,7 +34,7 @@ public class Solution {
          
         for (int stair_index = 1; stair_index <= 2; stair_index++) {
             int max_time = 0;
-            int[] arrival_time = new int[20];   // the number of persons at index time
+            int[] arrival_time = new int[20];   // the number of person at index time
             for (int i = 0; i < pcount; i++) {
                 if (Case[i] == stair_index) {
                     int time = Math.abs(P[i].x - S[stair_index - 1].x) + Math.abs(P[i].y - S[stair_index - 1].y);
