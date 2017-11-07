@@ -70,7 +70,7 @@ public class Solution {
 				Num[j] = CmpNum[j] = tmp[j] - '0';
 			Exchange = Integer.parseInt(st.nextToken());
 			adjust();
-      dfs(0);
+			dfs(0);
 			sb.append("#" + (i + 1) + " " + ans + "\n");
 		}
 		System.out.println(sb.toString());
