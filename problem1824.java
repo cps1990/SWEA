@@ -86,7 +86,7 @@ public class Solution {
 
 	public static void dfs(int x, int y, int direction) {
 
-    Visited[x][y] += 1;
+   		Visited[x][y] += 1;
 		if (Visited[x][y] >= Limit)
 			return;
 		
